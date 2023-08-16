@@ -1,0 +1,40 @@
+// 总体布局
+html,
+body,
+#__plasmo {
+  height: 100%;
+  width: 100%;
+}
+.options {
+  margin: 0 auto; // 水平居中
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .options-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .options-content {
+    width: 100%;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: 1px solid #7dbcea;
+    border-bottom: 1px solid #7dbcea;
+  }
+  .options-footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
